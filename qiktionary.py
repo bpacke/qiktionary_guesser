@@ -1,7 +1,7 @@
 from random import randint
 from string import ascii_lowercase
 alpha = [a for a in ascii_lowercase]
-english_file = '/Users/benjaminpacker/Downloads/coha-samples-lexicon.txt'
+english_file = 'coha-samples-lexicon.txt'
 words = [line.rstrip('\n') for line in open(english_file, encoding='latin-1')][3:]
 poss_words = []
 poss_sized_words =[]
